@@ -1,5 +1,5 @@
 import { MongoClient, ObjectId, ServerApiVersion } from 'mongodb'
-const uri = 'mongodb+srv://nvrz:0823200108232001GGwp@nvrz.gneqrye.mongodb.net/?retryWrites=true&w=majority&appName=nvrz'
+const uri = 'uri to connect to the database'
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
